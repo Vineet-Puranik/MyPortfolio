@@ -1,0 +1,4 @@
+streamlit
+streamlit-lottie
+requests==2.32.2
+streamlit==1.36.0 
