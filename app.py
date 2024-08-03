@@ -44,6 +44,7 @@ tex_longhorns = Image.open("images/texlonghorns.png")
 img_anvil = Image.open("images/imganvil.png")
 enovis_img = Image.open("images/enovis.png")
 obe = Image.open("images/obe.png")
+calculator= Image.open("images/calculator.png")
 ##header section
 with st.container():
     st.markdown("""
@@ -161,6 +162,21 @@ with st.container():
                 """
             )
             st.markdown("[Test the dashboard out>](https://github.com/Vineet-Puranik/My-Projects/blob/main/OBE.pbix)") 
+        with st.container():
+        image_column, text_column = st.columns((1,2))
+    with image_column:
+        with image_column:
+            st.image(calculator)
+        with text_column:
+            st.subheader("Making a functional calculator with JavaScript, CSS, and HTML")
+            st.write(
+                """
+                I created a calculator app to investigate how modern digital calculators are programmed!\n
+                By using HTML, I was able to test the calculatoor via a local server.\n
+                I added the ability to input keyboard characters as well the choice to physically click on the various buttons.           
+                """
+            )
+            st.markdown("[Calculator Code!>](https://github.com/Vineet-Puranik/CalculatorApp)") 
 #Letters of Recommendation
 
 with st.container():
